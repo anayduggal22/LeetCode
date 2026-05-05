@@ -1,59 +1,60 @@
-class Solution {
+
+class Solution
+{
 public:
-    bool dfs(vector<vector<int>>& graph, vector<int>& visited,
-             vector<int>& path_visited, vector<int>& safe, int index) {
+    void bfs(vector<vector<int>> &rev, vector<int>& indegree,
+             vector<int>& arr, queue<int>& q)
+    {
+        while(q.empty() == 0){
+            int node = q.front();
+            q.pop();
 
-        // If already processed reusing the result
-        if (visited[index] == 1) {
-            return safe[index];
-        }
+            arr.push_back(node);   // safe node
 
-        visited[index] = 1;
-        path_visited[index] = 1;
+            for(int j = 0 ; j < rev[node].size() ; j++){
+                int neigh = rev[node][j];
 
-        // Loop over neighbors
-        for (int i = 0; i < graph[index].size(); i++) {
+                indegree[neigh]--;
 
-            int neighboor = graph[index][i];
-
-            if (visited[neighboor] == 1 
-            && path_visited[neighboor] == 1) {
-                return false; // cycle
-            }
-
-            bool b = dfs(graph, visited, path_visited, safe, neighboor);
-            if (b == false) {
-                return false;
+                if(indegree[neigh] == 0){
+                    q.push(neigh);
+                }
             }
         }
-
-        // Backtracking
-        path_visited[index] = 0;
-        safe[index] = 1;
-        return true;
     }
 
-    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
+    vector<int> eventualSafeNodes(vector<vector<int>>& graph)
+    {
+        int n = graph.size();
 
-        int m = graph.size();
+        vector<vector<int>> rev(n);   // reversed graph
+        vector<int> indegree(n, 0);
+        queue<int> q;
 
-        vector<int> visited(m, 0);
-        vector<int> path_visited(m, 0);
-        vector<int> safe(m, 0);
+        for(int i = 0 ; i < n ; i++){
+            for(int j = 0 ; j < graph[i].size() ; j++){
+
+                int neigh = graph[i][j];
+
+                rev[neigh].push_back(i); // reverse edge
+
+                indegree[i]++; // count outgoing edges of original
+            }
+        }
+
+        // push terminal nodes
+        for(int i = 0 ; i < n ; i++){
+            if(indegree[i] == 0){
+                q.push(i);
+            }
+        }
+
         vector<int> arr;
 
-        // Run DFS for all nodes
-        for (int i = 0; i < m; i++) {
-            if (visited[i] == 0) {
-                dfs(graph, visited, path_visited, safe, i);
-            }
-        }
+        bfs(rev, indegree, arr, q);
 
-        for (int i = 0; i < m; i++) {
-            if (safe[i] == 1) {
-                arr.push_back(i);
-            }
-        }
+        // Return Sorted Array
+        sort(arr.begin(),arr.end());
 
         return arr;
     }
