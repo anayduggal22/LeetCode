@@ -34,4 +34,12 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0207-course-schedule](https://github.com/anayduggal22/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/anayduggal22/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0802-find-eventual-safe-states](https://github.com/anayduggal22/LeetCode/tree/master/0802-find-eventual-safe-states) |
+## Array
+|  |
+| ------- |
+| [0027-remove-element](https://github.com/anayduggal22/LeetCode/tree/master/0027-remove-element) |
+## Two Pointers
+|  |
+| ------- |
+| [0027-remove-element](https://github.com/anayduggal22/LeetCode/tree/master/0027-remove-element) |
 <!---LeetCode Topics End-->
