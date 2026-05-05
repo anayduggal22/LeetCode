@@ -44,4 +44,16 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/anayduggal22/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/anayduggal22/LeetCode/tree/master/0027-remove-element) |
+## Hash Table
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/anayduggal22/LeetCode/tree/master/0013-roman-to-integer) |
+## Math
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/anayduggal22/LeetCode/tree/master/0013-roman-to-integer) |
+## String
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/anayduggal22/LeetCode/tree/master/0013-roman-to-integer) |
 <!---LeetCode Topics End-->
