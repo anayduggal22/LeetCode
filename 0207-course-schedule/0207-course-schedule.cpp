@@ -4,7 +4,7 @@ public:
     void bfs(vector<vector<int>> &adj, vector<int>& indegree, int &count, queue<int>& q)
     {
         while(q.empty() == 0){
-            
+
             int index = q.front();
             q.pop();
 
@@ -33,7 +33,7 @@ public:
             int a = prerequisites[i][0];
             int b = prerequisites[i][1];
 
-            adj[b].push_back(a);   // b → a
+            adj[b].push_back(a);   // b -> a
             indegree[a]++;
         }
 
