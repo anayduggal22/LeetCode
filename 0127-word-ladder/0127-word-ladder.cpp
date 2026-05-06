@@ -5,6 +5,10 @@ public:
 
         set<string> s(wordList.begin(), wordList.end());
 
+        if (s.find(endWord) == s.end()) {
+            return 0;
+        }
+
         queue<string> q;
         q.push(beginWord);
         s.erase(beginWord);
