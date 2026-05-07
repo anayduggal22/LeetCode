@@ -54,9 +54,19 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/anayduggal22/LeetCode/tree/master/0013-roman-to-integer) |
+| [0067-add-binary](https://github.com/anayduggal22/LeetCode/tree/master/0067-add-binary) |
 ## String
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/anayduggal22/LeetCode/tree/master/0013-roman-to-integer) |
+| [0067-add-binary](https://github.com/anayduggal22/LeetCode/tree/master/0067-add-binary) |
 | [0127-word-ladder](https://github.com/anayduggal22/LeetCode/tree/master/0127-word-ladder) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/anayduggal22/LeetCode/tree/master/0067-add-binary) |
+## Simulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/anayduggal22/LeetCode/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
