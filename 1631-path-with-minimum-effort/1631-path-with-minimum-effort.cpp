@@ -7,6 +7,7 @@ public:
 
         distance[0][0] = 0;
 
+        // MIN HEAP PRIORITY QUEUE
         priority_queue<
         pair<int,pair<int,int>>,
         vector<pair<int,pair<int,int>>>,
