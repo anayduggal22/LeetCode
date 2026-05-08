@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0210-course-schedule-ii](https://github.com/anayduggal22/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0785-is-graph-bipartite](https://github.com/anayduggal22/LeetCode/tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/anayduggal22/LeetCode/tree/master/0802-find-eventual-safe-states) |
+| [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -18,10 +19,12 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0210-course-schedule-ii](https://github.com/anayduggal22/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0785-is-graph-bipartite](https://github.com/anayduggal22/LeetCode/tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/anayduggal22/LeetCode/tree/master/0802-find-eventual-safe-states) |
+| [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
 ## Union-Find
 |  |
 | ------- |
 | [0785-is-graph-bipartite](https://github.com/anayduggal22/LeetCode/tree/master/0785-is-graph-bipartite) |
+| [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
 |  |
 | ------- |
@@ -40,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/anayduggal22/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/anayduggal22/LeetCode/tree/master/0027-remove-element) |
+| [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
 ## Two Pointers
 |  |
 | ------- |
@@ -69,4 +73,16 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/anayduggal22/LeetCode/tree/master/0067-add-binary) |
+## Binary Search
+|  |
+| ------- |
+| [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
+## Matrix
+|  |
+| ------- |
+| [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
