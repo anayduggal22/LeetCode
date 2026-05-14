@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
 | [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
 | [2553-separate-the-digits-in-an-array](https://github.com/anayduggal22/LeetCode/tree/master/2553-separate-the-digits-in-an-array) |
+| [2784-check-if-array-is-good](https://github.com/anayduggal22/LeetCode/tree/master/2784-check-if-array-is-good) |
 ## Two Pointers
 |  |
 | ------- |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0013-roman-to-integer](https://github.com/anayduggal22/LeetCode/tree/master/0013-roman-to-integer) |
 | [0127-word-ladder](https://github.com/anayduggal22/LeetCode/tree/master/0127-word-ladder) |
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
+| [2784-check-if-array-is-good](https://github.com/anayduggal22/LeetCode/tree/master/2784-check-if-array-is-good) |
 ## Math
 |  |
 | ------- |
@@ -125,4 +127,5 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
+| [2784-check-if-array-is-good](https://github.com/anayduggal22/LeetCode/tree/master/2784-check-if-array-is-good) |
 <!---LeetCode Topics End-->
