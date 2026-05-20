@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/anayduggal22/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/anayduggal22/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/anayduggal22/LeetCode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
+| [0162-find-peak-element](https://github.com/anayduggal22/LeetCode/tree/master/0162-find-peak-element) |
 | [0540-single-element-in-a-sorted-array](https://github.com/anayduggal22/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
 | [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/anayduggal22/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/anayduggal22/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/anayduggal22/LeetCode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
+| [0162-find-peak-element](https://github.com/anayduggal22/LeetCode/tree/master/0162-find-peak-element) |
 | [0540-single-element-in-a-sorted-array](https://github.com/anayduggal22/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
 | [2540-minimum-common-value](https://github.com/anayduggal22/LeetCode/tree/master/2540-minimum-common-value) |
