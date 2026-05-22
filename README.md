@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0162-find-peak-element](https://github.com/anayduggal22/LeetCode/tree/master/0162-find-peak-element) |
 | [0540-single-element-in-a-sorted-array](https://github.com/anayduggal22/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
+| [0875-koko-eating-bananas](https://github.com/anayduggal22/LeetCode/tree/master/0875-koko-eating-bananas) |
 | [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
 | [2540-minimum-common-value](https://github.com/anayduggal22/LeetCode/tree/master/2540-minimum-common-value) |
 | [2553-separate-the-digits-in-an-array](https://github.com/anayduggal22/LeetCode/tree/master/2553-separate-the-digits-in-an-array) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/anayduggal22/LeetCode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/anayduggal22/LeetCode/tree/master/0162-find-peak-element) |
 | [0540-single-element-in-a-sorted-array](https://github.com/anayduggal22/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0875-koko-eating-bananas](https://github.com/anayduggal22/LeetCode/tree/master/0875-koko-eating-bananas) |
 | [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
 | [2540-minimum-common-value](https://github.com/anayduggal22/LeetCode/tree/master/2540-minimum-common-value) |
 ## Heap (Priority Queue)
