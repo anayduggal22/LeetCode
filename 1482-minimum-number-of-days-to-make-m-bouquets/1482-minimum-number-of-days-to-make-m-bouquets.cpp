@@ -28,7 +28,7 @@ public:
 
             b += count / k; // IMP
 
-            if (b >= m) { // Found More or equal than bouqets
+            if (b >= m) { // Found More or equal to m bouqets
                 ans = mid;
                 high = mid - 1; // Can be a more smaller than this
             }
