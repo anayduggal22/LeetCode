@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
 | [2540-minimum-common-value](https://github.com/anayduggal22/LeetCode/tree/master/2540-minimum-common-value) |
 | [2784-check-if-array-is-good](https://github.com/anayduggal22/LeetCode/tree/master/2784-check-if-array-is-good) |
+| [3120-count-the-number-of-special-characters-i](https://github.com/anayduggal22/LeetCode/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/anayduggal22/LeetCode/tree/master/3121-count-the-number-of-special-characters-ii) |
 ## Math
 |  |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0067-add-binary](https://github.com/anayduggal22/LeetCode/tree/master/0067-add-binary) |
 | [0127-word-ladder](https://github.com/anayduggal22/LeetCode/tree/master/0127-word-ladder) |
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
+| [3120-count-the-number-of-special-characters-i](https://github.com/anayduggal22/LeetCode/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/anayduggal22/LeetCode/tree/master/3121-count-the-number-of-special-characters-ii) |
 ## Bit Manipulation
 |  |
