@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [1539-kth-missing-positive-number](https://github.com/anayduggal22/LeetCode/tree/master/1539-kth-missing-positive-number) |
 | [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/anayduggal22/LeetCode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
+| [1901-find-a-peak-element-ii](https://github.com/anayduggal22/LeetCode/tree/master/1901-find-a-peak-element-ii) |
 | [2540-minimum-common-value](https://github.com/anayduggal22/LeetCode/tree/master/2540-minimum-common-value) |
 | [2553-separate-the-digits-in-an-array](https://github.com/anayduggal22/LeetCode/tree/master/2553-separate-the-digits-in-an-array) |
 | [2784-check-if-array-is-good](https://github.com/anayduggal22/LeetCode/tree/master/2784-check-if-array-is-good) |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/anayduggal22/LeetCode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/anayduggal22/LeetCode/tree/master/1539-kth-missing-positive-number) |
 | [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
+| [1901-find-a-peak-element-ii](https://github.com/anayduggal22/LeetCode/tree/master/1901-find-a-peak-element-ii) |
 | [2540-minimum-common-value](https://github.com/anayduggal22/LeetCode/tree/master/2540-minimum-common-value) |
 ## Heap (Priority Queue)
 |  |
@@ -153,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0074-search-a-2d-matrix](https://github.com/anayduggal22/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/anayduggal22/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
+| [1901-find-a-peak-element-ii](https://github.com/anayduggal22/LeetCode/tree/master/1901-find-a-peak-element-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
