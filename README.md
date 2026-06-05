@@ -206,4 +206,8 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0240-search-a-2d-matrix-ii](https://github.com/anayduggal22/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
+## Database
+|  |
+| ------- |
+| [0182-duplicate-emails](https://github.com/anayduggal22/LeetCode/tree/master/0182-duplicate-emails) |
 <!---LeetCode Topics End-->
