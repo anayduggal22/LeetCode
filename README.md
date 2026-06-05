@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0240-search-a-2d-matrix-ii](https://github.com/anayduggal22/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0275-h-index-ii](https://github.com/anayduggal22/LeetCode/tree/master/0275-h-index-ii) |
 | [0410-split-array-largest-sum](https://github.com/anayduggal22/LeetCode/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/anayduggal22/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/anayduggal22/LeetCode/tree/master/0455-assign-cookies) |
 | [0540-single-element-in-a-sorted-array](https://github.com/anayduggal22/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | ------- |
 | [0055-jump-game](https://github.com/anayduggal22/LeetCode/tree/master/0055-jump-game) |
 | [0410-split-array-largest-sum](https://github.com/anayduggal22/LeetCode/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/anayduggal22/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/anayduggal22/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/anayduggal22/LeetCode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/anayduggal22/LeetCode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
@@ -179,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 ## Sorting
 |  |
 | ------- |
+| [0435-non-overlapping-intervals](https://github.com/anayduggal22/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/anayduggal22/LeetCode/tree/master/0455-assign-cookies) |
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
 | [2784-check-if-array-is-good](https://github.com/anayduggal22/LeetCode/tree/master/2784-check-if-array-is-good) |
@@ -188,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0055-jump-game](https://github.com/anayduggal22/LeetCode/tree/master/0055-jump-game) |
 | [0135-candy](https://github.com/anayduggal22/LeetCode/tree/master/0135-candy) |
 | [0410-split-array-largest-sum](https://github.com/anayduggal22/LeetCode/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/anayduggal22/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/anayduggal22/LeetCode/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/anayduggal22/LeetCode/tree/master/0860-lemonade-change) |
 ## Prefix Sum
