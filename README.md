@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0013-roman-to-integer](https://github.com/anayduggal22/LeetCode/tree/master/0013-roman-to-integer) |
 | [0067-add-binary](https://github.com/anayduggal22/LeetCode/tree/master/0067-add-binary) |
 | [0127-word-ladder](https://github.com/anayduggal22/LeetCode/tree/master/0127-word-ladder) |
+| [0678-valid-parenthesis-string](https://github.com/anayduggal22/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/anayduggal22/LeetCode/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/anayduggal22/LeetCode/tree/master/3121-count-the-number-of-special-characters-ii) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0055-jump-game](https://github.com/anayduggal22/LeetCode/tree/master/0055-jump-game) |
 | [0410-split-array-largest-sum](https://github.com/anayduggal22/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/anayduggal22/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0678-valid-parenthesis-string](https://github.com/anayduggal22/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/anayduggal22/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/anayduggal22/LeetCode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/anayduggal22/LeetCode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
@@ -196,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0410-split-array-largest-sum](https://github.com/anayduggal22/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/anayduggal22/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/anayduggal22/LeetCode/tree/master/0455-assign-cookies) |
+| [0678-valid-parenthesis-string](https://github.com/anayduggal22/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0860-lemonade-change](https://github.com/anayduggal22/LeetCode/tree/master/0860-lemonade-change) |
 ## Prefix Sum
 |  |
@@ -220,4 +223,8 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0182-duplicate-emails](https://github.com/anayduggal22/LeetCode/tree/master/0182-duplicate-emails) |
 | [0196-delete-duplicate-emails](https://github.com/anayduggal22/LeetCode/tree/master/0196-delete-duplicate-emails) |
 | [0197-rising-temperature](https://github.com/anayduggal22/LeetCode/tree/master/0197-rising-temperature) |
+## Stack
+|  |
+| ------- |
+| [0678-valid-parenthesis-string](https://github.com/anayduggal22/LeetCode/tree/master/0678-valid-parenthesis-string) |
 <!---LeetCode Topics End-->
