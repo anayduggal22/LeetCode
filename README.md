@@ -247,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/anayduggal22/LeetCode/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 | [1587-bank-account-summary-ii](https://github.com/anayduggal22/LeetCode/tree/master/1587-bank-account-summary-ii) |
 | [1683-invalid-tweets](https://github.com/anayduggal22/LeetCode/tree/master/1683-invalid-tweets) |
+| [1729-find-followers-count](https://github.com/anayduggal22/LeetCode/tree/master/1729-find-followers-count) |
 | [1757-recyclable-and-low-fat-products](https://github.com/anayduggal22/LeetCode/tree/master/1757-recyclable-and-low-fat-products) |
 | [2356-number-of-unique-subjects-taught-by-each-teacher](https://github.com/anayduggal22/LeetCode/tree/master/2356-number-of-unique-subjects-taught-by-each-teacher) |
 ## Stack
