@@ -1,34 +1,26 @@
 class Solution {
 public:
-    void combination(vector<int>& nums, vector<vector<int>>& ans,
-                     vector<int>& ds, vector<int>& visited) {
 
-        // Base Case
-        if (ds.size() == nums.size()) {
-            ans.push_back(ds);
+    void combination(vector<int>& nums, vector<vector<int>>& ans, int index){
+
+        if(index == nums.size()){
+            ans.push_back(nums);
             return;
         }
 
-        for (int i = 0; i < visited.size(); i++) {
+        for(int i = index; i < nums.size(); i++){
 
-            if (visited[i] == 0) {
-                visited[i] = 1;
-                ds.push_back(nums[i]);
-                combination(nums, ans, ds, visited);
-
-                visited[i] = 0;
-                ds.pop_back();
-            }
+            swap(nums[index],nums[i]);
+            combination(nums,ans,index+1); // Going to next position
+            swap(nums[index],nums[i]);
         }
     }
 
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> ans;
-        vector<int> ds;
+        int index = 0;
 
-        vector<int> visited(nums.size(), 0);
-
-        combination(nums, ans, ds, visited);
+        combination(nums,ans,index);
 
         return ans;
     }
