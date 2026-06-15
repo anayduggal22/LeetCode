@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/anayduggal22/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/anayduggal22/LeetCode/tree/master/0027-remove-element) |
 | [0455-assign-cookies](https://github.com/anayduggal22/LeetCode/tree/master/0455-assign-cookies) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/anayduggal22/LeetCode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2540-minimum-common-value](https://github.com/anayduggal22/LeetCode/tree/master/2540-minimum-common-value) |
 ## Hash Table
 |  |
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/anayduggal22/LeetCode/tree/master/0025-reverse-nodes-in-k-group) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/anayduggal22/LeetCode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
