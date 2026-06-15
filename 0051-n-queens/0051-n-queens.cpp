@@ -1,85 +1,54 @@
 class Solution {
 public:
-
-    bool valid(vector<string>& board, int row, int col){
-        
-        int r = row;
-        int c = col;
-
-        // There can be 3 cases when queen placed is not valid:-
-
-        // 1.When there is a queen just behind
-        while(col > 0){
-            if(board[row][--col] == 'Q'){
-                return false;
-            }
-        }
-
-        // 2.When there is a queen on the upper behind diagonal
-        row = r;
-        col = c;
-
-        while(col > 0 && row > 0){
-            if(board[--row][--col] == 'Q'){
-                return false;
-            }
-        }
-
-        // 3.When there is a queen on the lower behind diagonal
-        row = r;
-        col = c;
-
-        while(col > 0 && row < board.size() - 1){
-            if(board[++row][--col] == 'Q'){
-                return false;
-            }
-        }
-
-
-        // Else it is valid
-        return true;
-    }
-
-    void solve(vector<vector<string>>& ans,vector<string>& board, int index){
+    void solve(vector<vector<string>>& ans, vector<string>& board, int index, vector<int>& rowmap, vector<int>& upperdiagonalmap, vector<int>& lowerdiagonalmap) {
 
         // Base Case
-        if(index == board.size()){
+        if (index == board.size()) {
             ans.push_back(board);
             return;
         }
 
-        
         for(int i = 0 ; i < board.size() ;i++){
 
-            if(valid(board,i, index) == true){
+            if(rowmap[i] == 0 &&
+               lowerdiagonalmap[i + index] == 0 &&
+               upperdiagonalmap[(board.size() - 1) + (i-index)] == 0){
+                rowmap[i] = 1;
+                lowerdiagonalmap[i + index] = 1;
+                upperdiagonalmap[(board.size() - 1) + (i-index)] = 1;
                 board[i][index] = 'Q';
 
-                solve(ans,board,index+1);
+                solve(ans,board,index+1, rowmap, upperdiagonalmap, lowerdiagonalmap);
 
                 // BackTracking and Removing Queen for next possible
+                rowmap[i] = 0;
+                lowerdiagonalmap[i + index] = 0;
+                upperdiagonalmap[(board.size() - 1) + (i-index)] = 0;
                 board[i][index] = '.';
             }
         }
-
-
     }
 
     vector<vector<string>> solveNQueens(int n) {
-        
+
         vector<vector<string>> ans;
+
+        // Map to check if placed queen is valid or not
+        vector<int> rowmap(n, 0);
+        vector<int> upperdiagonalmap(2*n - 1, 0);
+        vector<int> lowerdiagonalmap(2*n - 1, 0);
 
         vector<string> board(n);
 
-        string s(n,'.');
+        string s(n, '.');
 
-        for(int i = 0 ; i < n ; i++){
+        for (int i = 0; i < n; i++) {
             board[i] = s;
         }
 
-
         int index = 0;
 
-        solve(ans,board,index);
+        solve(ans, board, index, rowmap, upperdiagonalmap, lowerdiagonalmap);
 
         return ans;
     }
