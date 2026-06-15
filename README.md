@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0027-remove-element](https://github.com/anayduggal22/LeetCode/tree/master/0027-remove-element) |
 | [0033-search-in-rotated-sorted-array](https://github.com/anayduggal22/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/anayduggal22/LeetCode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0037-sudoku-solver](https://github.com/anayduggal22/LeetCode/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/anayduggal22/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/anayduggal22/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0045-jump-game-ii](https://github.com/anayduggal22/LeetCode/tree/master/0045-jump-game-ii) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/anayduggal22/LeetCode/tree/master/0013-roman-to-integer) |
+| [0037-sudoku-solver](https://github.com/anayduggal22/LeetCode/tree/master/0037-sudoku-solver) |
 | [0127-word-ladder](https://github.com/anayduggal22/LeetCode/tree/master/0127-word-ladder) |
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
 | [2540-minimum-common-value](https://github.com/anayduggal22/LeetCode/tree/master/2540-minimum-common-value) |
@@ -173,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/anayduggal22/LeetCode/tree/master/0037-sudoku-solver) |
 | [0074-search-a-2d-matrix](https://github.com/anayduggal22/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/anayduggal22/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
@@ -270,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/anayduggal22/LeetCode/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/anayduggal22/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/anayduggal22/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/anayduggal22/LeetCode/tree/master/0046-permutations) |
