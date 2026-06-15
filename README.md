@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0045-jump-game-ii](https://github.com/anayduggal22/LeetCode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/anayduggal22/LeetCode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/anayduggal22/LeetCode/tree/master/0047-permutations-ii) |
+| [0051-n-queens](https://github.com/anayduggal22/LeetCode/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/anayduggal22/LeetCode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/anayduggal22/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/anayduggal22/LeetCode/tree/master/0057-insert-interval) |
@@ -273,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0040-combination-sum-ii](https://github.com/anayduggal22/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/anayduggal22/LeetCode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/anayduggal22/LeetCode/tree/master/0047-permutations-ii) |
+| [0051-n-queens](https://github.com/anayduggal22/LeetCode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/anayduggal22/LeetCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/anayduggal22/LeetCode/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/anayduggal22/LeetCode/tree/master/0216-combination-sum-iii) |
