@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0410-split-array-largest-sum](https://github.com/anayduggal22/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/anayduggal22/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/anayduggal22/LeetCode/tree/master/0455-assign-cookies) |
+| [0493-reverse-pairs](https://github.com/anayduggal22/LeetCode/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/anayduggal22/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
 | [0860-lemonade-change](https://github.com/anayduggal22/LeetCode/tree/master/0860-lemonade-change) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0240-search-a-2d-matrix-ii](https://github.com/anayduggal22/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0275-h-index-ii](https://github.com/anayduggal22/LeetCode/tree/master/0275-h-index-ii) |
 | [0410-split-array-largest-sum](https://github.com/anayduggal22/LeetCode/tree/master/0410-split-array-largest-sum) |
+| [0493-reverse-pairs](https://github.com/anayduggal22/LeetCode/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/anayduggal22/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0875-koko-eating-bananas](https://github.com/anayduggal22/LeetCode/tree/master/0875-koko-eating-bananas) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/anayduggal22/LeetCode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -235,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0240-search-a-2d-matrix-ii](https://github.com/anayduggal22/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0493-reverse-pairs](https://github.com/anayduggal22/LeetCode/tree/master/0493-reverse-pairs) |
 ## Database
 |  |
 | ------- |
@@ -282,4 +285,20 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0078-subsets](https://github.com/anayduggal22/LeetCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/anayduggal22/LeetCode/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/anayduggal22/LeetCode/tree/master/0216-combination-sum-iii) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/anayduggal22/LeetCode/tree/master/0493-reverse-pairs) |
+## Segment Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/anayduggal22/LeetCode/tree/master/0493-reverse-pairs) |
+## Merge Sort
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/anayduggal22/LeetCode/tree/master/0493-reverse-pairs) |
+## Ordered Set
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/anayduggal22/LeetCode/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
