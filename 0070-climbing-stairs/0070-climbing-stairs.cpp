@@ -1,28 +1,19 @@
 class Solution {
 public:
-
-    int fact(int n, vector<int>& arr){
-
-        if(n <= 1){
-            return 1; // Only 1 way to climb
-        }
-
-        if(arr[n] != -1){
-            // Its value was already stored so return that
-            return arr[n];
-        }
-
-        int x = fact(n-1,arr); // 1 step back
-
-        int y = fact(n-2,arr); // 2 step back
-
-        return arr[n] = x + y;
-    }
-
     int climbStairs(int n) {
         
-        vector<int> arr(n+1,-1);
+        int prev = 1; // For 1 stair
+        int prev2 = 1; // For 0 stair
 
-        return fact(n,arr);
+        for(int i = 2 ; i <= n ; i++){
+
+            int curr = prev + prev2;
+
+            prev2 = prev;
+            prev = curr;
+
+        }
+
+        return prev;
     }
 };
