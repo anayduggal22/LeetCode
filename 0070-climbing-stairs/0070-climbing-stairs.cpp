@@ -12,9 +12,9 @@ public:
             return arr[n];
         }
 
-        int x = fact(n-1,arr);
+        int x = fact(n-1,arr); // 1 step back
 
-        int y = fact(n-2,arr);
+        int y = fact(n-2,arr); // 2 step back
 
         return arr[n] = x + y;
     }
