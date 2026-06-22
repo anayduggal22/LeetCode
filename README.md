@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0013-roman-to-integer](https://github.com/anayduggal22/LeetCode/tree/master/0013-roman-to-integer) |
 | [0060-permutation-sequence](https://github.com/anayduggal22/LeetCode/tree/master/0060-permutation-sequence) |
 | [0067-add-binary](https://github.com/anayduggal22/LeetCode/tree/master/0067-add-binary) |
+| [0070-climbing-stairs](https://github.com/anayduggal22/LeetCode/tree/master/0070-climbing-stairs) |
 ## String
 |  |
 | ------- |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | ------- |
 | [0045-jump-game-ii](https://github.com/anayduggal22/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/anayduggal22/LeetCode/tree/master/0055-jump-game) |
+| [0070-climbing-stairs](https://github.com/anayduggal22/LeetCode/tree/master/0070-climbing-stairs) |
 | [0410-split-array-largest-sum](https://github.com/anayduggal22/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/anayduggal22/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0678-valid-parenthesis-string](https://github.com/anayduggal22/LeetCode/tree/master/0678-valid-parenthesis-string) |
@@ -304,4 +306,8 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/anayduggal22/LeetCode/tree/master/0493-reverse-pairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/anayduggal22/LeetCode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
