@@ -3,11 +3,7 @@ public:
 
     int fact(int n, vector<int>& arr){
 
-        if(n <= 0){
-            return 1; // Only 1 way to climb 
-        }
-
-        if(n == 1){
+        if(n <= 1){
             return 1; // Only 1 way to climb
         }
 
