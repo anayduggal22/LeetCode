@@ -1,43 +1,50 @@
 class Solution {
 public:
-    int fact(int row, int col, vector<vector<int>>& matrix,
-             vector<vector<int>>& dp) {
+    int fact(vector<vector<int>>& matrix, vector<vector<int>>& dp) {
 
-        if (col < 0 || col >= matrix[0].size()) {
-            // Out of bound, so return a big value
-            // So that it does not get picked
-            return 1e9;
+        
+        for (int j = 0; j < matrix[0].size(); j++) {
+            // Base Case
+            dp[0][j] = matrix[0][j];
         }
 
-        if (row == 0) {
-            return matrix[row][col];
+        for(int i = 1; i < matrix.size() ; i++){
+            for(int j = 0 ; j < matrix[0].size(); j++){
+
+            int up = dp[i-1][j] + matrix[i][j];
+            int leftdiag = 1e9;
+            int rightdiag = 1e9;
+
+            if(j > 0){
+                leftdiag = dp[i-1][j-1] +  matrix[i][j];
+            }
+
+            if(j < matrix[0].size() - 1){
+                rightdiag = dp[i-1][j+1] + matrix[i][j];
+            }
+
+            dp[i][j] = min(up,min(leftdiag,rightdiag));
+
+            }
         }
 
-        if (dp[row][col] != INT_MAX) {
-            return dp[row][col];
-        }
 
-        int up = fact(row - 1, col, matrix, dp) + matrix[row][col];
-
-        int leftdiag = fact(row - 1, col - 1, matrix, dp) + matrix[row][col];
-
-        int rightdiag = fact(row - 1, col + 1, matrix, dp) + matrix[row][col];
-
-        return dp[row][col] = min(up, min(leftdiag, rightdiag));
-    }
-
-    int minFallingPathSum(vector<vector<int>>& matrix) {
-        int n = matrix.size() - 1;
-
-        vector<vector<int>> dp(matrix.size(),
-                               vector<int>(matrix[0].size(), INT_MAX));
 
         int mini = INT_MAX;
 
         for (int j = 0; j < matrix[0].size(); j++) {
-            mini = min(mini, fact(n, j, matrix, dp));
+            mini = min(mini, dp[dp.size() - 1][j]);
         }
 
         return mini;
+    }
+
+    int minFallingPathSum(vector<vector<int>>& matrix) {
+
+        vector<vector<int>> dp(matrix.size(),
+                               vector<int>(matrix[0].size(), 1e9));
+
+        
+        return fact(matrix,dp);
     }
 };
