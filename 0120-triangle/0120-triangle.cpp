@@ -3,22 +3,29 @@ public:
     int fact(int row, int col, vector<vector<int>>& triangle,
              vector<vector<int>>& dp) {
 
+        vector<int>prev(col+1);
+
         for(int j = 0 ; j <= col ; j++){
             // Base Case, Starting from down to up
-            dp[row][j] = triangle[row][j];
+            prev[j] = triangle[row][j];
         }
 
         for(int i = row - 1; i >= 0 ; i--){
+
+            vector<int>curr(col+1);
+
             for(int j = i; j >= 0 ; j--){
 
-                int down = dp[i+1][j] + triangle[i][j];
-                int diagonal = dp[i+1][j+1] + triangle[i][j];
+                int down = prev[j] + triangle[i][j];
+                int diagonal = prev[j+1] + triangle[i][j];
 
-                dp[i][j] = min(down,diagonal);
+                curr[j] = min(down,diagonal);
             }
+
+            prev = curr;
         }
 
-        return dp[0][0];
+        return prev[0];
     }
 
     int minimumTotal(vector<vector<int>>& triangle) {
