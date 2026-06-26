@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
 | [0860-lemonade-change](https://github.com/anayduggal22/LeetCode/tree/master/0860-lemonade-change) |
 | [0875-koko-eating-bananas](https://github.com/anayduggal22/LeetCode/tree/master/0875-koko-eating-bananas) |
+| [0931-minimum-falling-path-sum](https://github.com/anayduggal22/LeetCode/tree/master/0931-minimum-falling-path-sum) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/anayduggal22/LeetCode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/anayduggal22/LeetCode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/anayduggal22/LeetCode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0064-minimum-path-sum](https://github.com/anayduggal22/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/anayduggal22/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/anayduggal22/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0931-minimum-falling-path-sum](https://github.com/anayduggal22/LeetCode/tree/master/0931-minimum-falling-path-sum) |
 | [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
 | [1901-find-a-peak-element-ii](https://github.com/anayduggal22/LeetCode/tree/master/1901-find-a-peak-element-ii) |
 ## Dynamic Programming
@@ -208,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0435-non-overlapping-intervals](https://github.com/anayduggal22/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0678-valid-parenthesis-string](https://github.com/anayduggal22/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/anayduggal22/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0931-minimum-falling-path-sum](https://github.com/anayduggal22/LeetCode/tree/master/0931-minimum-falling-path-sum) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/anayduggal22/LeetCode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/anayduggal22/LeetCode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Shortest Path
