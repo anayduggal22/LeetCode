@@ -3,29 +3,33 @@ public:
     int fact(int row, int col, vector<vector<int>>& triangle,
              vector<vector<int>>& dp) {
 
-        if (row == triangle.size() - 1) {
-            // Base Case
-            return triangle[row][col];
+        for(int j = 0 ; j <= col ; j++){
+            // Base Case, Starting from down to up
+            dp[row][j] = triangle[row][j];
         }
 
-        else if (dp[row][col] != INT_MAX) {
-            return dp[row][col];
+        for(int i = row - 1; i >= 0 ; i--){
+            for(int j = i; j >= 0 ; j--){
+
+                int down = dp[i+1][j] + triangle[i][j];
+                int diagonal = dp[i+1][j+1] + triangle[i][j];
+
+                dp[i][j] = min(down,diagonal);
+            }
         }
 
-        int down = fact(row + 1, col, triangle, dp) + triangle[row][col];
-        int diagonal = fact(row + 1, col + 1, triangle, dp) + triangle[row][col];
-
-        return dp[row][col] = min(down, diagonal);
+        return dp[0][0];
     }
 
     int minimumTotal(vector<vector<int>>& triangle) {
 
         int n = triangle.size() - 1;
+        int m = triangle.size() - 1;
 
         vector<vector<int>> dp(
             triangle.size(),
             vector<int>(triangle[n].size(), INT_MAX)); // nxn size dp array
 
-        return fact(0, 0, triangle, dp);
+        return fact(n, m, triangle, dp);
     }
 };
