@@ -1,13 +1,18 @@
 class Solution {
 public:
-    int fact(int n, int m, vector<vector<int>>& grid, vector<vector<int>>& dp) {
+    int fact(int n, int m, vector<vector<int>>& grid) {
+
+        vector<int> prev(m + 1);
 
         for (int i = 0; i <= n; i++) {
+
+            vector<int> curr(m + 1);
+
             for (int j = 0; j <= m; j++) {
 
                 if (i == 0 && j == 0) {
                     // Base Case
-                    dp[i][j] = grid[i][j];
+                    curr[j] = grid[i][j];
                 }
 
                 else {
@@ -16,28 +21,27 @@ public:
                     int left = 1e9; // Should be default big
 
                     if (i > 0) {
-                        up = grid[i][j] + dp[i - 1][j];
+                        up = grid[i][j] + prev[j];
                     }
 
                     if (j > 0) {
-                        left = grid[i][j] + dp[i][j - 1];
+                        left = grid[i][j] + curr[j - 1];
                     }
 
-                    dp[i][j] = min(up, left);
+                    curr[j] = min(up, left);
                 }
             }
+            prev = curr; // IMPORTANT 
         }
 
-        return dp[n][m];
+        return prev[m]; // IMPORTANT
     }
 
     int minPathSum(vector<vector<int>>& grid) {
 
-        vector<vector<int>> dp(grid.size(), vector<int>(grid[0].size(), -1));
-
         int n = grid.size();
         int m = grid[0].size();
 
-        return fact(n - 1, m - 1, grid, dp);
+        return fact(n - 1, m - 1, grid);
     }
 };
