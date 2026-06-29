@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0931-minimum-falling-path-sum](https://github.com/anayduggal22/LeetCode/tree/master/0931-minimum-falling-path-sum) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/anayduggal22/LeetCode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/anayduggal22/LeetCode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
+| [1463-cherry-pickup-ii](https://github.com/anayduggal22/LeetCode/tree/master/1463-cherry-pickup-ii) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/anayduggal22/LeetCode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/anayduggal22/LeetCode/tree/master/1539-kth-missing-positive-number) |
 | [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0074-search-a-2d-matrix](https://github.com/anayduggal22/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/anayduggal22/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0931-minimum-falling-path-sum](https://github.com/anayduggal22/LeetCode/tree/master/0931-minimum-falling-path-sum) |
+| [1463-cherry-pickup-ii](https://github.com/anayduggal22/LeetCode/tree/master/1463-cherry-pickup-ii) |
 | [1631-path-with-minimum-effort](https://github.com/anayduggal22/LeetCode/tree/master/1631-path-with-minimum-effort) |
 | [1901-find-a-peak-element-ii](https://github.com/anayduggal22/LeetCode/tree/master/1901-find-a-peak-element-ii) |
 ## Dynamic Programming
@@ -212,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0787-cheapest-flights-within-k-stops](https://github.com/anayduggal22/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0931-minimum-falling-path-sum](https://github.com/anayduggal22/LeetCode/tree/master/0931-minimum-falling-path-sum) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/anayduggal22/LeetCode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1463-cherry-pickup-ii](https://github.com/anayduggal22/LeetCode/tree/master/1463-cherry-pickup-ii) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/anayduggal22/LeetCode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Shortest Path
 |  |
