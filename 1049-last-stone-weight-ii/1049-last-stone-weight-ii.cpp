@@ -49,8 +49,9 @@ public:
         for(int i = 0; i <= sum / 2; i++){
 
             if(dp[n][i]){
-
-                m = min(m, sum - 2 * i);
+                int x = i;
+                int y = sum - i;
+                m = min(m, abs(x-y));
             }
         }
 
