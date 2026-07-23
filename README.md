@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0875-koko-eating-bananas](https://github.com/anayduggal22/LeetCode/tree/master/0875-koko-eating-bananas) |
 | [0931-minimum-falling-path-sum](https://github.com/anayduggal22/LeetCode/tree/master/0931-minimum-falling-path-sum) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/anayduggal22/LeetCode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1049-last-stone-weight-ii](https://github.com/anayduggal22/LeetCode/tree/master/1049-last-stone-weight-ii) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/anayduggal22/LeetCode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1463-cherry-pickup-ii](https://github.com/anayduggal22/LeetCode/tree/master/1463-cherry-pickup-ii) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/anayduggal22/LeetCode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
@@ -215,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0678-valid-parenthesis-string](https://github.com/anayduggal22/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/anayduggal22/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0931-minimum-falling-path-sum](https://github.com/anayduggal22/LeetCode/tree/master/0931-minimum-falling-path-sum) |
+| [1049-last-stone-weight-ii](https://github.com/anayduggal22/LeetCode/tree/master/1049-last-stone-weight-ii) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/anayduggal22/LeetCode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1463-cherry-pickup-ii](https://github.com/anayduggal22/LeetCode/tree/master/1463-cherry-pickup-ii) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/anayduggal22/LeetCode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
