@@ -1,44 +1,50 @@
 class Solution {
 public:
 
-    int fact(vector<int>& coins, int amount, int n, vector<vector<int>>& dp){
+    int fact(vector<int>& coins, int amount, int n){
+        
+        vector<int>prev(amount + 1, -1);
+        
         //Base Case
-
         for(int w = 0; w <= amount; w++){
             
             if(w % coins[0] == 0){
-                dp[0][w] = w / coins[0];
+                prev[w] = w / coins[0];
             }
             else{
-                dp[0][w] = 1e9;
+                prev[w] = 1e9;
             }
         }
 
         for(int i = 1; i <= n; i++){
+
+            vector<int>curr(amount + 1, -1);
+
             for(int j = 0; j <= amount; j++){
 
-                int nottake = 0 + dp[i-1][j];
+                int nottake = 0 + prev[j];
 
                 int take = INT_MAX;
 
                 if(coins[i] <= j){
-                    take = 1 + dp[i][j-coins[i]];
+                    take = 1 + curr[j-coins[i]];
                 }
 
-                dp[i][j] = min(nottake,take);
+                curr[j] = min(nottake,take);
             }
+
+            prev = curr;
+
         }
 
-        return dp[n][amount];
+        return prev[amount];
     }
 
     int coinChange(vector<int>& coins, int amount) {
         
-        vector<vector<int>>dp(coins.size(), vector<int>(amount + 1, -1));
-
         int n = coins.size() - 1;
 
-        int ans = fact(coins, amount, n, dp);
+        int ans = fact(coins, amount, n);
 
         if(ans >= 1e9){
             return -1; // Amount cannot be made up
