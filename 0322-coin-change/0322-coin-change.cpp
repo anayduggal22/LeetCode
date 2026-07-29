@@ -2,33 +2,34 @@ class Solution {
 public:
 
     int fact(vector<int>& coins, int amount, int n, vector<vector<int>>& dp){
+        //Base Case
 
-        if(n == 0){
-            // If coins[0] can be used to get to the remaining amount then we have to use: amount/coins[0] coins to do it
-            if(amount % coins[0] == 0){
-                return amount / coins[0];
+        for(int w = 0; w <= amount; w++){
+            
+            if(w % coins[0] == 0){
+                dp[0][w] = w / coins[0];
             }
             else{
-                // If it cannot, then returning a large value, which will not get accepted, or if it will, then we cannot make this amount
-                return 1e9;
+                dp[0][w] = 1e9;
             }
         }
 
-        if(dp[n][amount] != -1){
-            return dp[n][amount];
+        for(int i = 1; i <= n; i++){
+            for(int j = 0; j <= amount; j++){
+
+                int nottake = 0 + dp[i-1][j];
+
+                int take = INT_MAX;
+
+                if(coins[i] <= j){
+                    take = 1 + dp[i][j-coins[i]];
+                }
+
+                dp[i][j] = min(nottake,take);
+            }
         }
 
-        int nottake = 0 + fact(coins, amount, n-1, dp);
-
-        int take = INT_MAX;
-        // Initialized with a greater value as we are finding the minimum count
-
-        if(coins[n] <= amount){
-            // We will not go to the next index, as there is a possibilty that we can use this coin again
-            take = 1 + fact(coins, amount-coins[n], n, dp);
-        }
-
-    return dp[n][amount] = min(nottake,take);
+        return dp[n][amount];
     }
 
     int coinChange(vector<int>& coins, int amount) {
