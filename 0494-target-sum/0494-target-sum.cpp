@@ -2,28 +2,31 @@ class Solution {
 public:
     int fact(int n, vector<vector<int>>& dp, int s1, vector<int>& nums) {
 
-        if (n == 0) {
-            if (nums[0] == 0 && s1 == 0) {
-                return 2; // {0} & {}
-            } else if (s1 == 0 || s1 == nums[0]) {
-                return 1;
+        for (int i = 0; i <= s1; i++) {
+            if (nums[0] == 0 & i == 0) {
+                dp[0][i] = 2;
+            } else if (i == 0 || i == nums[0]) {
+                dp[0][i] = 1;
             } else {
-                return 0;
+                dp[0][i] = 0;
             }
         }
 
-        if (dp[n][s1] != -1) {
-            return dp[n][s1];
+        for (int i = 1; i <= n; i++) {
+            for (int j = 0; j <= s1; j++) {
+
+                int nottake = dp[i - 1][j];
+                int take = 0;
+
+                if (nums[i] <= j) {
+                    take = dp[i - 1][j - nums[i]];
+                }
+
+                dp[i][j] = take + nottake;
+            }
         }
 
-        int nottake = 0 + fact(n - 1, dp, s1, nums);
-        int take = 0;
-
-        if (nums[n] <= s1) {
-            take = fact(n - 1, dp, s1 - nums[n], nums);
-        }
-
-        return dp[n][s1] = take + nottake;
+        return dp[n][s1];
     }
 
     int findTargetSumWays(vector<int>& nums, int target) {
@@ -41,7 +44,7 @@ public:
         // s1 - s2 = target
         // s1 = (sum + target)/2
 
-        if(abs(target) > sum){
+        if (abs(target) > sum) {
             return 0;
         }
 
