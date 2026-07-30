@@ -1,32 +1,39 @@
 class Solution {
 public:
-    int fact(int n, vector<vector<int>>& dp, int s1, vector<int>& nums) {
+    int fact(int n, int s1, vector<int>& nums) {
+
+        vector<int> prev(s1 + 1, -1);
 
         for (int i = 0; i <= s1; i++) {
             if (nums[0] == 0 & i == 0) {
-                dp[0][i] = 2;
+                prev[i] = 2;
             } else if (i == 0 || i == nums[0]) {
-                dp[0][i] = 1;
+                prev[i] = 1;
             } else {
-                dp[0][i] = 0;
+                prev[i] = 0;
             }
         }
 
         for (int i = 1; i <= n; i++) {
+
+            vector<int> curr(s1 + 1, -1);
+
             for (int j = 0; j <= s1; j++) {
 
-                int nottake = dp[i - 1][j];
+                int nottake = prev[j];
                 int take = 0;
 
                 if (nums[i] <= j) {
-                    take = dp[i - 1][j - nums[i]];
+                    take = prev[j - nums[i]];
                 }
 
-                dp[i][j] = take + nottake;
+                curr[j] = take + nottake;
             }
+
+            prev = curr;
         }
 
-        return dp[n][s1];
+        return prev[s1];
     }
 
     int findTargetSumWays(vector<int>& nums, int target) {
@@ -54,9 +61,8 @@ public:
 
         int s1 = (sum + target) / 2;
 
-        vector<vector<int>> dp(nums.size(), vector<int>(s1 + 1, -1));
         int n = nums.size() - 1;
 
-        return fact(n, dp, s1, nums);
+        return fact(n, s1, nums);
     }
 };
