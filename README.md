@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [2540-minimum-common-value](https://github.com/anayduggal22/LeetCode/tree/master/2540-minimum-common-value) |
 | [2553-separate-the-digits-in-an-array](https://github.com/anayduggal22/LeetCode/tree/master/2553-separate-the-digits-in-an-array) |
 | [2784-check-if-array-is-good](https://github.com/anayduggal22/LeetCode/tree/master/2784-check-if-array-is-good) |
+| [3102-minimize-manhattan-distances](https://github.com/anayduggal22/LeetCode/tree/master/3102-minimize-manhattan-distances) |
 ## Two Pointers
 |  |
 | ------- |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0062-unique-paths](https://github.com/anayduggal22/LeetCode/tree/master/0062-unique-paths) |
 | [0067-add-binary](https://github.com/anayduggal22/LeetCode/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/anayduggal22/LeetCode/tree/master/0070-climbing-stairs) |
+| [3102-minimize-manhattan-distances](https://github.com/anayduggal22/LeetCode/tree/master/3102-minimize-manhattan-distances) |
 ## String
 |  |
 | ------- |
@@ -244,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/anayduggal22/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [2784-check-if-array-is-good](https://github.com/anayduggal22/LeetCode/tree/master/2784-check-if-array-is-good) |
+| [3102-minimize-manhattan-distances](https://github.com/anayduggal22/LeetCode/tree/master/3102-minimize-manhattan-distances) |
 ## Greedy
 |  |
 | ------- |
@@ -339,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/anayduggal22/LeetCode/tree/master/0493-reverse-pairs) |
+| [3102-minimize-manhattan-distances](https://github.com/anayduggal22/LeetCode/tree/master/3102-minimize-manhattan-distances) |
 ## Memoization
 |  |
 | ------- |
@@ -347,4 +351,8 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/anayduggal22/LeetCode/tree/master/0062-unique-paths) |
+## Geometry
+|  |
+| ------- |
+| [3102-minimize-manhattan-distances](https://github.com/anayduggal22/LeetCode/tree/master/3102-minimize-manhattan-distances) |
 <!---LeetCode Topics End-->
