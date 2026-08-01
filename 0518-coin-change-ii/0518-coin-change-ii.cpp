@@ -17,7 +17,7 @@ public:
             return dp[n][amount];
         }
 
-        int nottake = 0 + fact(n-1, amount, dp, coins);
+        int nottake = fact(n-1, amount, dp, coins);
 
         int take = 0;
 
