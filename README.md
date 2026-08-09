@@ -149,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0013-roman-to-integer](https://github.com/anayduggal22/LeetCode/tree/master/0013-roman-to-integer) |
 | [0067-add-binary](https://github.com/anayduggal22/LeetCode/tree/master/0067-add-binary) |
 | [0127-word-ladder](https://github.com/anayduggal22/LeetCode/tree/master/0127-word-ladder) |
+| [0516-longest-palindromic-subsequence](https://github.com/anayduggal22/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/anayduggal22/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
 | [1143-longest-common-subsequence](https://github.com/anayduggal22/LeetCode/tree/master/1143-longest-common-subsequence) |
@@ -224,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0416-partition-equal-subset-sum](https://github.com/anayduggal22/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/anayduggal22/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/anayduggal22/LeetCode/tree/master/0494-target-sum) |
+| [0516-longest-palindromic-subsequence](https://github.com/anayduggal22/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/anayduggal22/LeetCode/tree/master/0518-coin-change-ii) |
 | [0678-valid-parenthesis-string](https://github.com/anayduggal22/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/anayduggal22/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
