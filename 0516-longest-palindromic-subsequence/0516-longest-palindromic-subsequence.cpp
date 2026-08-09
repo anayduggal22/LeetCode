@@ -4,19 +4,26 @@ public:
     int fact(vector<vector<int>>& dp, const string& s1, const string& s2, int i, int j){
 
         // Out of Bound
-        if(i < 0 || j < 0){
-            return  0;
+        for(int n = 0 ; n <= i ; n++){
+            dp[n][0] = 0;
+            dp[0][n] = 0;
         }
 
-        if(dp[i][j] != -1){
-            return dp[i][j];
+        for(int n = 1; n <= i; n++){
+            for(int m = 1; m <= j; m++){
+
+            if(s1[n-1] == s2[m-1]){
+                dp[n][m] = 1 + dp[n-1][m-1];
+            }
+            else{
+            dp[n][m] = max(dp[n-1][m], dp[n][m-1]);
+            }
+            
+            }
         }
 
-        if(s1[i] == s2[j]){
-            return dp[i][j] = 1 + fact(dp,s1,s2,i-1,j-1);
-        }
+        return dp[i][j];
 
-        return dp[i][j] = max(fact(dp,s1,s2,i-1,j), fact(dp,s1,s2,i,j-1));
     }
 
     int longestPalindromeSubseq(string s) {
@@ -28,10 +35,14 @@ public:
         string s2 = s;
         reverse(s2.begin(), s2.end());
 
-        vector<vector<int>> dp(s.length(), vector<int>(s.length(), -1));
+        vector<vector<int>> dp(s.length() + 1, vector<int>(s.length() + 1, -1));
 
-        int i = s.length() - 1;
-        int j = s.length() - 1;
+        // Not subtracting by minus one as did in memoization
+        // Due to base case of going negative cannot be done
+        // In tabulation
+
+        int i = s.length();
+        int j = s.length();
 
         return fact(dp, s1, s2, i, j);
     }
