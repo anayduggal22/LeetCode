@@ -1,37 +1,47 @@
 class Solution {
 public:
 
-    int fact(string s, string t, int i , int j , vector<vector<int>>& dp){
+    int fact(string s, string t, int i , int j , vector<vector<double>>& dp){
 
         // Base Case
-        if(j < 0){
-            return 1; // t was found in s in a range
+
+        // If j == 0, all i in dp should be 1
+        for(int n = 0; n <= i ; n++){
+            dp[n][0] = 1;
         }
-        else if(i < 0){
-            return 0; // s was traversed without finding t in a range
+        // Else for all j except j = 0, as it there it should be 1,
+        // for i==0, dp should be 1;
+        for(int n = 1; n <= j ; n++){
+            dp[0][n] = 0;
         }
 
-        if(dp[i][j] != -1){
-            return dp[i][j];
+        for(int n = 1; n <= i ; n++ ){
+            for(int m = 1; m <= j ; m++){
+
+                // 1-indexed i and j, so
+                if(s[n-1] == t[m-1]){
+                    // Two things we can do now, take this char and go to new char of s and t, OR dont take this char and only go to new char of s;
+                    dp[n][m] = dp[n-1][m-1] + dp[n-1][m];
+                }
+
+                else{
+                    // If char of s and t not matched, we will check the next char of s
+                    dp[n][m] = dp[n-1][m];
+                }
+            }
         }
 
-        if(s[i] == t[j]){
-            // Two things we can do now, take this char and go to new char of s and t, OR dont take this char and only go to new char of s;
-            return dp[i][j] = fact(s,t,i-1,j-1,dp) + fact(s,t,i-1,j,dp);
-        }
 
-        else{
-            // If char of s and t not matched, we will check the next char of s
-            return dp[i][j] = fact(s,t,i-1,j,dp);
-        }
+
+        return (int)dp[i][j];
     }
 
     int numDistinct(string s, string t) {
-        
-        int i = s.length() - 1;
-        int j = t.length() - 1;
+        // Making it 1-indexed for easier base case
+        int i = s.length();
+        int j = t.length();
 
-        vector<vector<int>> dp(s.length(), vector<int>(t.length(), -1));
+        vector<vector<double>> dp(s.length()+1, vector<double>(t.length()+1, -1));
 
         return fact(s, t, i, j, dp);
     }
