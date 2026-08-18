@@ -1,38 +1,42 @@
 class Solution {
 public:
 
-    int fact(string word1, string word2, int i, int j, vector<vector<int>>& dp){
+    int fact(string word1, string word2, int i, int j){
 
         // Base Case
+        vector<int>prev(word2.length() + 1, -1);
 
-        for(int n = 0; n <= i ; n++){
-            dp[n][0] = n;
-        }
         for(int n = 0; n <= j ; n++){
-            dp[0][n] = n;
+            prev[n] = n;
         }
 
         for(int n = 1; n <= i ; n++){
+
+            vector<int>curr(word2.length() + 1, -1);
+            curr[0] = n; // Base Case
+
             for(int m = 1; m <= j ; m++){
 
                 // 1 based indexing, thats why -1
                 if(word1[n-1] == word2[m-1]){
                     // Here 0 operations will be done
-                    dp[n][m] = 0 + dp[n-1][m-1];
+                    curr[m] = 0 + prev[m-1];
                 }
 
                 else{
-                    int insert = dp[n][m-1];
-                    int del = dp[n-1][m];
-                    int replace = dp[n-1][m-1];
+                    int insert = curr[m-1];
+                    int del = prev[m];
+                    int replace = prev[m-1];
 
-                    dp[n][m] = 1 + min(insert,min(del,replace));
+                    curr[m] = 1 + min(insert,min(del,replace));
                 }
 
             }
+
+            prev = curr;
         }
 
-        return dp[i][j];
+        return prev[j];
 
     }
 
@@ -44,6 +48,6 @@ public:
 
         vector<vector<int>> dp(word1.length() + 1, vector<int>(word2.length() + 1, -1));
 
-        return fact(word1,word2,i,j,dp);
+        return fact(word1,word2,i,j);
     }
 };
