@@ -1,57 +1,54 @@
 class Solution {
 public:
 
-    bool fact(const string& s, const string& p, int i, int j, vector<vector<int>>& dp){
-        
-        // Base Case        
-        if(i < 0 && j < 0) {
-            // Both have been traversed, so matching
-            return true;
+    bool isMatch(string s, string p) {
+
+        // 1 Based Indexing
+        int i = s.length();
+        int j = p.length();
+
+        vector<vector<int>> dp(i + 1, vector<int>(j + 1, false));
+
+        // Base Cases
+
+        dp[0][0] = true;
+
+        for(int n = 1; n <= i; n++){
+            dp[n][0] = false;
         }
-        
-        // Base Case
-        if(i < 0 && j >= 0) {
-            // s has been traversed without getting matched with p
-            // Return true only if all remaining elements of p are '*'
-            for(int n = 0; n <= j; n++) {
-                if(p[n] != '*') {
-                    return false;
+
+        for(int m = 1; m <= j; m++){
+            bool flag = true;
+
+            for(int k = 1; k <= m; k++){
+                if(p[k - 1] != '*'){
+                    flag = false;
+                    break;
                 }
             }
-            return true;
-        }
-        
-        // Base Case
-        if(i >= 0 && j < 0) {
-            // p has been traversed without getting matched with s
-            return false;
+
+            dp[0][m] = flag;
         }
 
-        if(dp[i][j] != -1) {
-            return dp[i][j];
+        for(int n = 1; n <= i; n++){
+            for(int m = 1; m <= j; m++){
+
+                if(p[m - 1] == s[n - 1] || p[m - 1] == '?') {
+                    dp[n][m] = dp[n - 1][m - 1];
+                }
+
+                else if(p[m - 1] == '*') {
+                    dp[n][m] = dp[n - 1][m] | dp[n][m - 1];
+                }
+
+                // Else if string not matched && p[m - 1] != '*' OR '?'
+                // return false
+                else {
+                    dp[n][m] = false;
+                }
+            }
         }
 
-        if(p[j] == s[i] || p[j] == '?') {
-            return dp[i][j] = fact(s, p, i - 1, j - 1, dp);
-        }
-
-        else if(p[j] == '*') {
-            return dp[i][j] = fact(s, p, i - 1, j, dp) |
-                              fact(s, p, i, j - 1, dp);
-        }
-
-        // Else if string not matched && p[j] != '*' OR '?'
-        // return false
-
-        return dp[i][j] = false;
-    }
-
-    bool isMatch(string s, string p) {
-        int i = s.length() - 1;
-        int j = p.length() - 1;
-
-        vector<vector<int>> dp(s.length(), vector<int>(p.length(), -1));
-
-        return fact(s, p, i, j, dp);
+        return dp[i][j];
     }
 };
