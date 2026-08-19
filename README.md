@@ -149,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/anayduggal22/LeetCode/tree/master/0013-roman-to-integer) |
+| [0044-wildcard-matching](https://github.com/anayduggal22/LeetCode/tree/master/0044-wildcard-matching) |
 | [0067-add-binary](https://github.com/anayduggal22/LeetCode/tree/master/0067-add-binary) |
 | [0072-edit-distance](https://github.com/anayduggal22/LeetCode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/anayduggal22/LeetCode/tree/master/0115-distinct-subsequences) |
@@ -219,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/anayduggal22/LeetCode/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/anayduggal22/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/anayduggal22/LeetCode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/anayduggal22/LeetCode/tree/master/0062-unique-paths) |
@@ -269,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/anayduggal22/LeetCode/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/anayduggal22/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/anayduggal22/LeetCode/tree/master/0055-jump-game) |
 | [0135-candy](https://github.com/anayduggal22/LeetCode/tree/master/0135-candy) |
@@ -290,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/anayduggal22/LeetCode/tree/master/0025-reverse-nodes-in-k-group) |
+| [0044-wildcard-matching](https://github.com/anayduggal22/LeetCode/tree/master/0044-wildcard-matching) |
 | [0060-permutation-sequence](https://github.com/anayduggal22/LeetCode/tree/master/0060-permutation-sequence) |
 ## Divide and Conquer
 |  |
