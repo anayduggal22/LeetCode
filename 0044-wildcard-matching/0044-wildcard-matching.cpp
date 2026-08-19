@@ -1,54 +1,55 @@
 class Solution {
 public:
-
     bool isMatch(string s, string p) {
 
         // 1 Based Indexing
         int i = s.length();
         int j = p.length();
 
-        vector<vector<int>> dp(i + 1, vector<int>(j + 1, false));
+        vector<int> prev(j + 1, false);
+        vector<int> curr(j + 1, false);
 
-        // Base Cases
+        // Base Case
+        prev[0] = true;
 
-        dp[0][0] = true;
-
-        for(int n = 1; n <= i; n++){
-            dp[n][0] = false;
-        }
-
-        for(int m = 1; m <= j; m++){
+        // When s is empty, p must contain only '*'
+        for (int m = 1; m <= j; m++) {
             bool flag = true;
 
-            for(int k = 1; k <= m; k++){
-                if(p[k - 1] != '*'){
+            for (int k = 1; k <= m; k++) {
+                if (p[k - 1] != '*') {
                     flag = false;
                     break;
                 }
             }
 
-            dp[0][m] = flag;
+            prev[m] = flag;
         }
 
-        for(int n = 1; n <= i; n++){
-            for(int m = 1; m <= j; m++){
+        for (int n = 1; n <= i; n++) {
 
-                if(p[m - 1] == s[n - 1] || p[m - 1] == '?') {
-                    dp[n][m] = dp[n - 1][m - 1];
+            curr[0] = false;
+
+            for (int m = 1; m <= j; m++) {
+
+                if (p[m - 1] == s[n - 1] || p[m - 1] == '?') {
+                    curr[m] = prev[m - 1];
                 }
 
-                else if(p[m - 1] == '*') {
-                    dp[n][m] = dp[n - 1][m] | dp[n][m - 1];
+                else if (p[m - 1] == '*') {
+                    curr[m] = prev[m] | curr[m - 1];
                 }
 
                 // Else if string not matched && p[m - 1] != '*' OR '?'
                 // return false
                 else {
-                    dp[n][m] = false;
+                    curr[m] = false;
                 }
             }
+
+            prev = curr;
         }
 
-        return dp[i][j];
+        return prev[j];
     }
 };
