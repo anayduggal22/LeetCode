@@ -3,31 +3,15 @@ public:
 
     int maxProfit(vector<int>& prices) {
         
-        // Creating a 3D dp array of [prices.sizes][2][3]
+        // Creating two 2D dp array of [2][3]
         // 2 -> buy/sell
         // 3 -> 0 or 1 or 2 transactions
 
-        vector<vector<vector<int>>> dp(prices.size()+1,vector<vector<int>>(2, vector<int>(3, -1)));
+        vector<vector<int>> ahead(2, vector<int>(3, 0));
+        vector<vector<int>> curr(2, vector<int>(3, 0));
 
         // Base Cases
-
-        // 1. When n == prices.size()
-        int n = prices.size();
-
-        for(int buy = 0; buy <= 1 ;buy++){
-            for (int cap = 0; cap <= 2; cap++){
-                dp[n][buy][cap] = 0;
-            }
-        }
-
-        // 2. When cap = 0;
-        int cap = 0;
-
-        for(int n = 0; n <prices.size() ;n++){
-            for (int buy = 0; buy <= 1; buy++){
-                dp[n][buy][cap] = 0;
-            }
-        }
+        // No need as both array are assigned as 0
 
 
         for(int n = prices.size() -1; n >= 0 ; n--){
@@ -45,7 +29,7 @@ public:
                         // For buy, we will turn 0 to 1, so that from now on we want to sell
                         // Cap will stay same as transaction not completed without selling
 
-                        profit = max(-prices[n] + dp[n+1][1][cap], 0 + dp[n+1][0][cap]);
+                        profit = max(-prices[n] + ahead[1][cap], 0 + ahead[0][cap]);
 
                     }
 
@@ -54,16 +38,18 @@ public:
                         // For sell, we will turn 1 to 0, so that from now on we want to buy
                         // Also for sell, Cap will decrease by 1, and not sell, cap will remain same as transaction not completed without selling
 
-                        profit = max(prices[n] + dp[n+1][0][cap-1], 0 + dp[n+1][1][cap]);
+                        profit = max(prices[n] + ahead[0][cap-1], 0 + ahead[1][cap]);
                     }
 
-                    dp[n][buy][cap] = profit;
+                    curr[buy][cap] = profit;
 
                 }
             }
+
+            ahead = curr;
         }
 
-        return dp[0][0][2];
+        return ahead[0][2];
         
     }
 };
