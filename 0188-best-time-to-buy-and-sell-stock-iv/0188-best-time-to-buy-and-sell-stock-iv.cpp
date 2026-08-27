@@ -3,7 +3,7 @@ public:
 
     int maxProfit(int k,vector<int>& prices) {
         
-        // Creating two 2D dp array of [2][3]
+        // Creating two 2D dp array of [2][k]
         // 2 -> buy/sell
         // k+1 -> 0 to k transactions
 
