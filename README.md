@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0494-target-sum](https://github.com/anayduggal22/LeetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/anayduggal22/LeetCode/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/anayduggal22/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/anayduggal22/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
 | [0860-lemonade-change](https://github.com/anayduggal22/LeetCode/tree/master/0860-lemonade-change) |
 | [0875-koko-eating-bananas](https://github.com/anayduggal22/LeetCode/tree/master/0875-koko-eating-bananas) |
@@ -251,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0518-coin-change-ii](https://github.com/anayduggal22/LeetCode/tree/master/0518-coin-change-ii) |
 | [0583-delete-operation-for-two-strings](https://github.com/anayduggal22/LeetCode/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/anayduggal22/LeetCode/tree/master/0678-valid-parenthesis-string) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/anayduggal22/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/anayduggal22/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0931-minimum-falling-path-sum](https://github.com/anayduggal22/LeetCode/tree/master/0931-minimum-falling-path-sum) |
 | [1049-last-stone-weight-ii](https://github.com/anayduggal22/LeetCode/tree/master/1049-last-stone-weight-ii) |
@@ -290,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0435-non-overlapping-intervals](https://github.com/anayduggal22/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/anayduggal22/LeetCode/tree/master/0455-assign-cookies) |
 | [0678-valid-parenthesis-string](https://github.com/anayduggal22/LeetCode/tree/master/0678-valid-parenthesis-string) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/anayduggal22/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0860-lemonade-change](https://github.com/anayduggal22/LeetCode/tree/master/0860-lemonade-change) |
 ## Prefix Sum
 |  |
