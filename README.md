@@ -150,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0062-unique-paths](https://github.com/anayduggal22/LeetCode/tree/master/0062-unique-paths) |
 | [0067-add-binary](https://github.com/anayduggal22/LeetCode/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/anayduggal22/LeetCode/tree/master/0070-climbing-stairs) |
+| [0836-rectangle-overlap](https://github.com/anayduggal22/LeetCode/tree/master/0836-rectangle-overlap) |
 | [3102-minimize-manhattan-distances](https://github.com/anayduggal22/LeetCode/tree/master/3102-minimize-manhattan-distances) |
 ## String
 |  |
@@ -391,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 ## Geometry
 |  |
 | ------- |
+| [0836-rectangle-overlap](https://github.com/anayduggal22/LeetCode/tree/master/0836-rectangle-overlap) |
 | [3102-minimize-manhattan-distances](https://github.com/anayduggal22/LeetCode/tree/master/3102-minimize-manhattan-distances) |
 ## Longest Common Subsequence
 |  |
