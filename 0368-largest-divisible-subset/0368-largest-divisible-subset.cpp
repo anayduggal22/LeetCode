@@ -3,7 +3,7 @@ public:
     int tabulation(vector<int>& nums, vector<int>& index) {
         int n = nums.size();
 
-        // Every element itself is an LIS of length 1
+        // Every element itself is an LDS of length 1
         vector<int> dp(n, 1);
 
         for (int i = 1; i < n; i++) {
@@ -19,7 +19,7 @@ public:
             }
         }
 
-        // Find the index where the longest LIS ends
+        // Find the index where the longest LDS ends
         int m = 0;
         int lastindex = 0;
 
