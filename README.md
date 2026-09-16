@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0875-koko-eating-bananas](https://github.com/anayduggal22/LeetCode/tree/master/0875-koko-eating-bananas) |
 | [0931-minimum-falling-path-sum](https://github.com/anayduggal22/LeetCode/tree/master/0931-minimum-falling-path-sum) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/anayduggal22/LeetCode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1048-longest-string-chain](https://github.com/anayduggal22/LeetCode/tree/master/1048-longest-string-chain) |
 | [1049-last-stone-weight-ii](https://github.com/anayduggal22/LeetCode/tree/master/1049-last-stone-weight-ii) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/anayduggal22/LeetCode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1463-cherry-pickup-ii](https://github.com/anayduggal22/LeetCode/tree/master/1463-cherry-pickup-ii) |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/anayduggal22/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/anayduggal22/LeetCode/tree/master/0027-remove-element) |
 | [0455-assign-cookies](https://github.com/anayduggal22/LeetCode/tree/master/0455-assign-cookies) |
+| [1048-longest-string-chain](https://github.com/anayduggal22/LeetCode/tree/master/1048-longest-string-chain) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/anayduggal22/LeetCode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2540-minimum-common-value](https://github.com/anayduggal22/LeetCode/tree/master/2540-minimum-common-value) |
 ## Hash Table
@@ -139,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0037-sudoku-solver](https://github.com/anayduggal22/LeetCode/tree/master/0037-sudoku-solver) |
 | [0127-word-ladder](https://github.com/anayduggal22/LeetCode/tree/master/0127-word-ladder) |
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
+| [1048-longest-string-chain](https://github.com/anayduggal22/LeetCode/tree/master/1048-longest-string-chain) |
 | [2540-minimum-common-value](https://github.com/anayduggal22/LeetCode/tree/master/2540-minimum-common-value) |
 | [2784-check-if-array-is-good](https://github.com/anayduggal22/LeetCode/tree/master/2784-check-if-array-is-good) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/anayduggal22/LeetCode/tree/master/3120-count-the-number-of-special-characters-i) |
@@ -167,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0583-delete-operation-for-two-strings](https://github.com/anayduggal22/LeetCode/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/anayduggal22/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
+| [1048-longest-string-chain](https://github.com/anayduggal22/LeetCode/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/anayduggal22/LeetCode/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/anayduggal22/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/anayduggal22/LeetCode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -259,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/anayduggal22/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/anayduggal22/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0931-minimum-falling-path-sum](https://github.com/anayduggal22/LeetCode/tree/master/0931-minimum-falling-path-sum) |
+| [1048-longest-string-chain](https://github.com/anayduggal22/LeetCode/tree/master/1048-longest-string-chain) |
 | [1049-last-stone-weight-ii](https://github.com/anayduggal22/LeetCode/tree/master/1049-last-stone-weight-ii) |
 | [1092-shortest-common-supersequence](https://github.com/anayduggal22/LeetCode/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/anayduggal22/LeetCode/tree/master/1143-longest-common-subsequence) |
@@ -282,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0435-non-overlapping-intervals](https://github.com/anayduggal22/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/anayduggal22/LeetCode/tree/master/0455-assign-cookies) |
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
+| [1048-longest-string-chain](https://github.com/anayduggal22/LeetCode/tree/master/1048-longest-string-chain) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/anayduggal22/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [2784-check-if-array-is-good](https://github.com/anayduggal22/LeetCode/tree/master/2784-check-if-array-is-good) |
 | [3102-minimize-manhattan-distances](https://github.com/anayduggal22/LeetCode/tree/master/3102-minimize-manhattan-distances) |
