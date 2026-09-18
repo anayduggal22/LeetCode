@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0494-target-sum](https://github.com/anayduggal22/LeetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/anayduggal22/LeetCode/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/anayduggal22/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/anayduggal22/LeetCode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/anayduggal22/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
 | [0860-lemonade-change](https://github.com/anayduggal22/LeetCode/tree/master/0860-lemonade-change) |
@@ -261,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0516-longest-palindromic-subsequence](https://github.com/anayduggal22/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/anayduggal22/LeetCode/tree/master/0518-coin-change-ii) |
 | [0583-delete-operation-for-two-strings](https://github.com/anayduggal22/LeetCode/tree/master/0583-delete-operation-for-two-strings) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/anayduggal22/LeetCode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/anayduggal22/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/anayduggal22/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/anayduggal22/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -382,10 +384,12 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/anayduggal22/LeetCode/tree/master/0493-reverse-pairs) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/anayduggal22/LeetCode/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Segment Tree
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/anayduggal22/LeetCode/tree/master/0493-reverse-pairs) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/anayduggal22/LeetCode/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Merge Sort
 |  |
 | ------- |
@@ -414,4 +418,8 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0583-delete-operation-for-two-strings](https://github.com/anayduggal22/LeetCode/tree/master/0583-delete-operation-for-two-strings) |
 | [1092-shortest-common-supersequence](https://github.com/anayduggal22/LeetCode/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/anayduggal22/LeetCode/tree/master/1143-longest-common-subsequence) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/anayduggal22/LeetCode/tree/master/0673-number-of-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
