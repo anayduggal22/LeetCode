@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/anayduggal22/LeetCode/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/anayduggal22/LeetCode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1901-find-a-peak-element-ii](https://github.com/anayduggal22/LeetCode/tree/master/1901-find-a-peak-element-ii) |
+| [2249-count-lattice-points-inside-a-circle](https://github.com/anayduggal22/LeetCode/tree/master/2249-count-lattice-points-inside-a-circle) |
 | [2540-minimum-common-value](https://github.com/anayduggal22/LeetCode/tree/master/2540-minimum-common-value) |
 | [2553-separate-the-digits-in-an-array](https://github.com/anayduggal22/LeetCode/tree/master/2553-separate-the-digits-in-an-array) |
 | [2784-check-if-array-is-good](https://github.com/anayduggal22/LeetCode/tree/master/2784-check-if-array-is-good) |
@@ -145,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0127-word-ladder](https://github.com/anayduggal22/LeetCode/tree/master/0127-word-ladder) |
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
 | [1048-longest-string-chain](https://github.com/anayduggal22/LeetCode/tree/master/1048-longest-string-chain) |
+| [2249-count-lattice-points-inside-a-circle](https://github.com/anayduggal22/LeetCode/tree/master/2249-count-lattice-points-inside-a-circle) |
 | [2540-minimum-common-value](https://github.com/anayduggal22/LeetCode/tree/master/2540-minimum-common-value) |
 | [2784-check-if-array-is-good](https://github.com/anayduggal22/LeetCode/tree/master/2784-check-if-array-is-good) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/anayduggal22/LeetCode/tree/master/3120-count-the-number-of-special-characters-i) |
@@ -159,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0070-climbing-stairs](https://github.com/anayduggal22/LeetCode/tree/master/0070-climbing-stairs) |
 | [0368-largest-divisible-subset](https://github.com/anayduggal22/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [0836-rectangle-overlap](https://github.com/anayduggal22/LeetCode/tree/master/0836-rectangle-overlap) |
+| [2249-count-lattice-points-inside-a-circle](https://github.com/anayduggal22/LeetCode/tree/master/2249-count-lattice-points-inside-a-circle) |
 | [3102-minimize-manhattan-distances](https://github.com/anayduggal22/LeetCode/tree/master/3102-minimize-manhattan-distances) |
 ## String
 |  |
@@ -414,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0836-rectangle-overlap](https://github.com/anayduggal22/LeetCode/tree/master/0836-rectangle-overlap) |
+| [2249-count-lattice-points-inside-a-circle](https://github.com/anayduggal22/LeetCode/tree/master/2249-count-lattice-points-inside-a-circle) |
 | [3102-minimize-manhattan-distances](https://github.com/anayduggal22/LeetCode/tree/master/3102-minimize-manhattan-distances) |
 ## Longest Common Subsequence
 |  |
@@ -425,4 +429,8 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/anayduggal22/LeetCode/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Enumeration
+|  |
+| ------- |
+| [2249-count-lattice-points-inside-a-circle](https://github.com/anayduggal22/LeetCode/tree/master/2249-count-lattice-points-inside-a-circle) |
 <!---LeetCode Topics End-->
