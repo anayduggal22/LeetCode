@@ -2,7 +2,10 @@ class Solution {
 public:
     int countLatticePoints(vector<vector<int>>& circles) {
 
-        set<vector<int>> s;
+        // dp[i][j] tells whether the point (i, j) has already been counted
+        vector<vector<int>> dp(203,vector<int>(203, 0));
+
+        int ans = 0;
 
         for (int l = 0; l < circles.size(); l++) {
 
@@ -13,14 +16,23 @@ public:
             for (int i = x - r; i <= x + r; i++) {
                 for (int j = y - r; j <= y + r; j++) {
 
-                    int d = (x - i) * (x - i) + (y - j) * (y - j);
+                    int dx = x - i;
+                    int dy = y - j;
+
+                    int d = dx * dx + dy * dy;
 
                     if (d <= r * r) {
-                        s.insert({i, j});
+
+                        // Count the point only once
+                        if (!dp[i][j]) {
+                            dp[i][j] = 1;
+                            ans++;
+                        }
                     }
                 }
             }
         }
-        return s.size();
+
+        return ans;
     }
 };
