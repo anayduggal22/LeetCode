@@ -13,40 +13,37 @@ public:
         return 1;
     }
 
-    int fact(int i, const string& s, vector<int>& dp) {
-
-        if (i == s.length()) {
-            return 0;
-        }
-
-        if (dp[i] != -1) {
-            return dp[i];
-        }
-
-        int m = INT_MAX;
-
-        for (int j = i; j < s.length(); j++) {
-
-            if (palindrome(i, j, s)) {
-                int count = 1 + fact(j + 1, s, dp);
-                m = min(count, m);
-                // Keeping only minimum count
-            }
-
-        }
-
-        return dp[i] = m;
-    }
-
     int minCut(string s) {
 
         int n = s.length();
 
-        vector<int> dp(n, -1);
+        // n + 1 size, because j is going till n
+        vector<int> dp(n + 1, 0);
+
+        // Base Case
+        dp[n] = 0;
+
+        // Memoization, i-> 0 till n-1
+        // So tabulation, i-> n-1 till 0
+
+        for (int i = n - 1; i >= 0; i--) {
+
+            int m = INT_MAX;
+
+            for (int j = i; j < s.length(); j++) {
+
+                if (palindrome(i, j, s)) {
+                    int count = 1 + dp[j + 1];
+                    m = min(count, m);
+                    // Keeping only minimum count
+                }
+            }
+
+            dp[i] = m;
+        }
 
         // -1 done because function adds an extra partition
         // at end of string
-
-        return fact(0, s, dp) - 1;
+        return dp[0] - 1;
     }
 };
