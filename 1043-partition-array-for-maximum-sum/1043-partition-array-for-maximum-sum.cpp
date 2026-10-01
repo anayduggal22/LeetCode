@@ -1,47 +1,40 @@
 class Solution {
 public:
-
-    int fact(int i, int k, vector<int>& arr, vector<int>& dp){
-
-        // Base Case
-        if(i >= arr.size()){
-            return 0;
-        }
-
-        if(dp[i] != -1){
-            return dp[i];
-        }
-
-        // Traversing from index till index + k of till array size
-        // if index + k > array size
-
-        int ans = INT_MIN;
-
-        int m = INT_MIN;
-
-        int l = 0;
-
-        for(int j = i; j < min((i+k), int(arr.size())) ; j++){
-
-            l++;
-
-            m = max(m, arr[j]);
-
-            // sum is lenght*maxelement in that subarray + 
-            // finding partition sum from rest of the subbarry
-            int sum = l*m + fact(j+1,k,arr,dp);
-
-            ans = max(ans,sum);
-
-        }
-
-        return dp[i] = ans;
-    }
-
     int maxSumAfterPartitioning(vector<int>& arr, int k) {
 
-      vector<int> dp(arr.size(), -1);
+        // Size + 1, because loop will go till arr.size()
+        vector<int> dp(arr.size() + 1, 0);
 
-      return fact(0,k,arr,dp);  
+        // Base Case
+        dp[arr.size()] = 0;
+
+        // In Memoization, i-> 0 to n-1
+        // So Tabulation, i-> n-1 to 0
+
+        for (int i = arr.size() - 1 ; i >= 0; i--) {
+
+            int ans = INT_MIN;
+
+            int m = INT_MIN;
+
+            int l = 0;
+
+            for (int j = i; j < min((i + k), int(arr.size())); j++) {
+
+                l++;
+
+                m = max(m, arr[j]);
+
+                // sum is lenght*maxelement in that subarray +
+                // finding partition sum from rest of the subbarry
+                int sum = l * m + dp[j + 1];
+
+                ans = max(ans, sum);
+            }
+
+            dp[i] = ans;
+        }
+
+        return dp[0];
     }
 };
