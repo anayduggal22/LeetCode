@@ -169,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/anayduggal22/LeetCode/tree/master/0013-roman-to-integer) |
+| [0020-valid-parentheses](https://github.com/anayduggal22/LeetCode/tree/master/0020-valid-parentheses) |
 | [0044-wildcard-matching](https://github.com/anayduggal22/LeetCode/tree/master/0044-wildcard-matching) |
 | [0067-add-binary](https://github.com/anayduggal22/LeetCode/tree/master/0067-add-binary) |
 | [0072-edit-distance](https://github.com/anayduggal22/LeetCode/tree/master/0072-edit-distance) |
@@ -378,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/anayduggal22/LeetCode/tree/master/0020-valid-parentheses) |
 | [0678-valid-parenthesis-string](https://github.com/anayduggal22/LeetCode/tree/master/0678-valid-parenthesis-string) |
 ## Backtracking
 |  |
@@ -439,4 +441,8 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [2249-count-lattice-points-inside-a-circle](https://github.com/anayduggal22/LeetCode/tree/master/2249-count-lattice-points-inside-a-circle) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/anayduggal22/LeetCode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
