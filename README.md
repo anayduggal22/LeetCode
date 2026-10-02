@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0074-search-a-2d-matrix](https://github.com/anayduggal22/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/anayduggal22/LeetCode/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/anayduggal22/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
+| [0085-maximal-rectangle](https://github.com/anayduggal22/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0090-subsets-ii](https://github.com/anayduggal22/LeetCode/tree/master/0090-subsets-ii) |
 | [0120-triangle](https://github.com/anayduggal22/LeetCode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/anayduggal22/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0063-unique-paths-ii](https://github.com/anayduggal22/LeetCode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/anayduggal22/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/anayduggal22/LeetCode/tree/master/0074-search-a-2d-matrix) |
+| [0085-maximal-rectangle](https://github.com/anayduggal22/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0240-search-a-2d-matrix-ii](https://github.com/anayduggal22/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0931-minimum-falling-path-sum](https://github.com/anayduggal22/LeetCode/tree/master/0931-minimum-falling-path-sum) |
 | [1463-cherry-pickup-ii](https://github.com/anayduggal22/LeetCode/tree/master/1463-cherry-pickup-ii) |
@@ -252,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0064-minimum-path-sum](https://github.com/anayduggal22/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/anayduggal22/LeetCode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/anayduggal22/LeetCode/tree/master/0072-edit-distance) |
+| [0085-maximal-rectangle](https://github.com/anayduggal22/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/anayduggal22/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/anayduggal22/LeetCode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/anayduggal22/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -380,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/anayduggal22/LeetCode/tree/master/0020-valid-parentheses) |
+| [0085-maximal-rectangle](https://github.com/anayduggal22/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0678-valid-parenthesis-string](https://github.com/anayduggal22/LeetCode/tree/master/0678-valid-parenthesis-string) |
 ## Backtracking
 |  |
@@ -445,4 +449,8 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/anayduggal22/LeetCode/tree/master/0020-valid-parentheses) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0085-maximal-rectangle](https://github.com/anayduggal22/LeetCode/tree/master/0085-maximal-rectangle) |
 <!---LeetCode Topics End-->
