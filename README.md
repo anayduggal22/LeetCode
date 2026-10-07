@@ -188,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [1092-shortest-common-supersequence](https://github.com/anayduggal22/LeetCode/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/anayduggal22/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/anayduggal22/LeetCode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1392-longest-happy-prefix](https://github.com/anayduggal22/LeetCode/tree/master/1392-longest-happy-prefix) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/anayduggal22/LeetCode/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/anayduggal22/LeetCode/tree/master/3121-count-the-number-of-special-characters-ii) |
 ## Bit Manipulation
@@ -460,4 +461,24 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/anayduggal22/LeetCode/tree/master/0085-maximal-rectangle) |
+## Rolling Hash
+|  |
+| ------- |
+| [1392-longest-happy-prefix](https://github.com/anayduggal22/LeetCode/tree/master/1392-longest-happy-prefix) |
+## String Matching
+|  |
+| ------- |
+| [1392-longest-happy-prefix](https://github.com/anayduggal22/LeetCode/tree/master/1392-longest-happy-prefix) |
+## Hash Function
+|  |
+| ------- |
+| [1392-longest-happy-prefix](https://github.com/anayduggal22/LeetCode/tree/master/1392-longest-happy-prefix) |
+## Z Algorithm
+|  |
+| ------- |
+| [1392-longest-happy-prefix](https://github.com/anayduggal22/LeetCode/tree/master/1392-longest-happy-prefix) |
+## Knuth–Morris–Pratt Algorithm
+|  |
+| ------- |
+| [1392-longest-happy-prefix](https://github.com/anayduggal22/LeetCode/tree/master/1392-longest-happy-prefix) |
 <!---LeetCode Topics End-->
