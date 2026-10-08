@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [1043-partition-array-for-maximum-sum](https://github.com/anayduggal22/LeetCode/tree/master/1043-partition-array-for-maximum-sum) |
 | [1048-longest-string-chain](https://github.com/anayduggal22/LeetCode/tree/master/1048-longest-string-chain) |
 | [1049-last-stone-weight-ii](https://github.com/anayduggal22/LeetCode/tree/master/1049-last-stone-weight-ii) |
+| [1105-filling-bookcase-shelves](https://github.com/anayduggal22/LeetCode/tree/master/1105-filling-bookcase-shelves) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/anayduggal22/LeetCode/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/anayduggal22/LeetCode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1463-cherry-pickup-ii](https://github.com/anayduggal22/LeetCode/tree/master/1463-cherry-pickup-ii) |
@@ -291,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [1048-longest-string-chain](https://github.com/anayduggal22/LeetCode/tree/master/1048-longest-string-chain) |
 | [1049-last-stone-weight-ii](https://github.com/anayduggal22/LeetCode/tree/master/1049-last-stone-weight-ii) |
 | [1092-shortest-common-supersequence](https://github.com/anayduggal22/LeetCode/tree/master/1092-shortest-common-supersequence) |
+| [1105-filling-bookcase-shelves](https://github.com/anayduggal22/LeetCode/tree/master/1105-filling-bookcase-shelves) |
 | [1143-longest-common-subsequence](https://github.com/anayduggal22/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/anayduggal22/LeetCode/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/anayduggal22/LeetCode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
