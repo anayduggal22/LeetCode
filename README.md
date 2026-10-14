@@ -184,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 | [0516-longest-palindromic-subsequence](https://github.com/anayduggal22/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/anayduggal22/LeetCode/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/anayduggal22/LeetCode/tree/master/0678-valid-parenthesis-string) |
+| [0686-repeated-string-match](https://github.com/anayduggal22/LeetCode/tree/master/0686-repeated-string-match) |
 | [0721-accounts-merge](https://github.com/anayduggal22/LeetCode/tree/master/0721-accounts-merge) |
 | [1048-longest-string-chain](https://github.com/anayduggal22/LeetCode/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/anayduggal22/LeetCode/tree/master/1092-shortest-common-supersequence) |
@@ -470,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 ## String Matching
 |  |
 | ------- |
+| [0686-repeated-string-match](https://github.com/anayduggal22/LeetCode/tree/master/0686-repeated-string-match) |
 | [1392-longest-happy-prefix](https://github.com/anayduggal22/LeetCode/tree/master/1392-longest-happy-prefix) |
 ## Hash Function
 |  |
@@ -478,9 +480,15 @@ A collection of LeetCode questions to ace the coding interview - Solved By Anay 
 ## Z Algorithm
 |  |
 | ------- |
+| [0686-repeated-string-match](https://github.com/anayduggal22/LeetCode/tree/master/0686-repeated-string-match) |
 | [1392-longest-happy-prefix](https://github.com/anayduggal22/LeetCode/tree/master/1392-longest-happy-prefix) |
 ## Knuth–Morris–Pratt Algorithm
 |  |
 | ------- |
+| [0686-repeated-string-match](https://github.com/anayduggal22/LeetCode/tree/master/0686-repeated-string-match) |
 | [1392-longest-happy-prefix](https://github.com/anayduggal22/LeetCode/tree/master/1392-longest-happy-prefix) |
+## Boyer–Moore String-Search Algorithm
+|  |
+| ------- |
+| [0686-repeated-string-match](https://github.com/anayduggal22/LeetCode/tree/master/0686-repeated-string-match) |
 <!---LeetCode Topics End-->
